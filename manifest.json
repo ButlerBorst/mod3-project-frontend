@@ -1,0 +1,21 @@
+{
+  "name": "FlatIron School",
+  "version": "1.0",
+  "description": "Take A Break",
+  "manifest_version": 2,
+  "icons": {
+    "128": "128Logo.png"
+  },
+  "browser_action": {
+    "default_action": "Extenstion.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+  ,
+  "background": {
+    "scripts": ["popup.js",
+         "popup.html",
+         "css/popup.css"],
+    "persistent": true
+  }
+}

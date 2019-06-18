@@ -1,0 +1,113 @@
+
+  /* Modal Structure */
+  html,
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    min-height: 180px;
+    padding: 0;
+    width: 384px;
+  }
+  h1 {
+    font-family: "Menlo", monospace;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    color: #2f5876;
+  }
+  a:link,
+  a:visited {
+    color: #000000;
+    outline: 0;
+    text-decoration: none;
+  }
+  img {
+    width: 30px;
+  }
+  .timer-container {
+  width: 384px;
+  background-color:#00bcd4;
+  padding: 50px 25px 40px;
+  border-radius: 10px;
+  margin: 10px auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.input-wrap input {
+  width: 100%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  height: 30px;
+}
+.input-wrap button {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+  margin-top; 10px;
+  margin: 25px auto 0;
+  font-size: 18px;
+  color: #fff;
+  background-color: #006064;
+  cursor: pointer;
+}
+.timer-wrap {
+  font-size: 65px;
+  text-align: center;
+  color: #fff;
+}
+  .modal-header {
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+  }
+  .modal-content {
+    padding: 0 20px;
+  }
+  .modal-icons {
+    border-top: 0.5px solid #dadada;
+    height: 50px;
+    width: 100%;
+  }
+  .logo {
+    padding: 16px;
+  }
+  .logo-icon {
+    vertical-align: text-bottom;
+    margin-right: 12px;
+  }
+  .version {
+    color: #444;
+    font-size: 18px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+  }
+  .flex {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+  }
+  .flex:hover {
+    opacity: 0.4;
+  }
+  .flex .fa {
+    font-size: 40px;
+    color: #2f5876;
+  }
+
+
+
+
+  /* Add styles to the form container */
+
+
+  /* Full-width input fields */
+
+
+  /* Set a style for the submit/login button */
