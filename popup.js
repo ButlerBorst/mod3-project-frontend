@@ -1,4 +1,20 @@
+const usersEndPoint = 'http://localhost:3000/api/v1/users'
 
+document.addEventListener('DOMContentLoaded', () => {
+  // fetch(usersEndPoint)
+  //   .then(res => res.json())
+  //   .then(json =>
+  //     json.forEach(user =>{
+  //       const markup = `
+  //       <li>
+  //         <h3>${user.user_name}
+  //           <button>edit</button>
+  //         </h3>
+  //       </li>`;
+  //       document.querySelector('#users-list').innerHTML += markup;
+      })
+    );
+});
 
 var remainingSec;
 var interval;
