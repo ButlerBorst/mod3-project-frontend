@@ -10,12 +10,10 @@
     "default_action": "Extenstion.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab"]
-  ,
+
+  "permissions":["activeTab", "declarativeContent", "storage"],
   "background": {
-    "scripts": ["popup.js",
-         "popup.html",
-         "css/popup.css"],
-    "persistent": true
+    "scripts": ["popup.js", "background.js"],
+    "persistent": false
   }
 }
